@@ -1,0 +1,27 @@
+.line{
+    background-color: brown;
+    color: white;
+    font-size: 18px;
+    display:inline-block;
+    -webkit-animation:  scrolling-left1 20s linear infinite;
+    animation: scrolling-left1 20s linear infinite;
+}
+@keyframes scrolling-left1 {
+    0% {transform: translateX(100%);
+        -webkit-transform: translateX(100%);}
+      100% {transform: translateX(-100%);
+          -webkit-transform: translateX(-100%);}}
+.login{
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    height: 25px;
+    width: 100px;
+    color: #3498db;
+    font-size: 0.5em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
